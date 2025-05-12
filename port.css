@@ -1,0 +1,82 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-size: larger;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-image: url('prog2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #0f0f0f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinha o conteúdo horizontalmente */
+}
+
+header {
+  width: 100%; /* Garante que o header ocupe toda a largura */
+  padding: 40px 20px;
+  text-align: center;
+  color: #0476f8;
+  background-color: transparent;
+}
+
+header {
+  background-color: transparent;
+  color: #4798f5; /* título claro */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.2em;
+  font-weight: 900; /* mais destaque */
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: 900;
+  color: #d81507;
+    margin-bottom: 0px; /* diminui o espaço após o h2 */
+}
+
+p {
+  margin-top: 1px; /* reduz o espaço antes do parágrafo */
+  margin-bottom: 0px; /* espaço entre parágrafos */
+}
+
+section {
+  padding: 10px;
+  margin: 1px auto;
+  max-width: 800px;
+  color: #ffffff; /* texto das seções */
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #e6e6e6;
+}
+
+a {
+  color: #fffdfd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+i {
+  margin-right: 8px;
+  color: #038cfc;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.fa-github {
+  color: #f7e705; /* ou #333 se o fundo for claro */
+}
